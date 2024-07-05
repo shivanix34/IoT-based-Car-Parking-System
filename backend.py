@@ -19,14 +19,14 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.screenmanager import ScreenManager , Screen
 import time
 config = {
-  'apiKey': "AIzaSyDR719PMnmn0S-elO9DQOxhyhp0oaeaK4U",
-  'authDomain': "carparking-ec58a.firebaseapp.com",
-  'databaseURL':'https://carparking-ec58a-default-rtdb.firebaseio.com',
-  'projectId': "carparking-ec58a",
-  'storageBucket': "carparking-ec58a.appspot.com",
-  'messagingSenderId': "621177940695",
-  'appId': "1:621177940695:web:427b3f29a9c58b164b1e92",
-  'measurementId': "G-D9VEL93T2C"
+  'apiKey': "give-api-key",
+  'authDomain': "xyz.firebaseapp.com",
+  'databaseURL':'https://url.firebaseio.com',
+  'projectId': "carparking",
+  'storageBucket': "carparking.appspot.com",
+  'messagingSenderId': "messenger id",
+  'appId': "give id",
+  'measurementId': "D9VEL93T2C"
 }
 firebase = pyrebase.initialize_app(config)
 db = firebase.database()
